@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "NKJ"
+    },
+    "motivations": {
+      "@value": "We strongly believe that maintaining personal interests while ensuring unbiased representation is essential. \n\nWe must stand against predatory technology and advocate for freedom and privacy. It's time to unite against out-of-touch corporations that reduce us to mere numbers on a spreadsheet, prioritizing profits over people. Together, we can build a future where technology serves humanity, not exploits it.\n\nStrength in numbers will play a crucial role if-and when large corporations begin supporting projects solely aligned with their own interests, often leaving smaller, community-driven initiatives behind. Unity and collective action will be essential to ensure fairness, innovation, and opportunities for all participants in the ecosystem.\n"
+    },
+    "objectives": {
+      "@value": "We aim to represent a collective of small business owners and entrepreneurs dedicated to empowering and educating like-minded individuals about the transformative potential of blockchain use cases. Our goal is to contribute meaningfully to the growth of the Cardano ecosystem by supporting projects that drive positive impact and innovaton.  \n\nWe aim to provide services and tools that empower individuals to securely self-custody their cryptocurrency portfolios, enabling them to take full control of their investments without relying on third-party custodians, while also onboarding as many newcomers as possible to the Cardano ecosystem. \n\nWe fundamentally disagree with the motto 'You will own nothing and be happy.' We believe in empowering individuals with true ownership, control, and responsibility over their assets, fostering financial sovereignty and personal freedom. "
+    },
+    "paymentAddress": {
+      "@value": "addr1qyw7v8u5xls62f7jptsu7jmspljyqhsp4xup62qqs737rm6tlaluwz03333yt6vssrt96p3ucg6uyhwc7neygyh495dsy7t4d8"
+    },
+    "qualifications": {
+      "@value": "How we mine our Fiat:\nOur collective professional experience spans diverse fields, including Mechanical Engineering, Teaching, and Music, where we have honed our skills, built resilience, and gained valuable insights that now inform our approach to empowering others in the blockchain space. \n\nWe are all Satoshi. \n\n"
+    },
+    "references": []
+  }
+}
